@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "question": "What is the purpose of React?",
+    "options": [
+      "UI development",
+      "Backend logic",
+      "Database management",
+      "Operating system control"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "question": "Which hook is used for side effects?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "useContext"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "question": "What is JSX?",
+    "options": [
+      "JavaScript XML",
+      "Java Syntax Extension",
+      "JavaScript Extension",
+      "None of the above"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 4,
+    "question": "Which method is used to update state?",
+    "options": [
+      "setState()",
+      "updateState()",
+      "changeState()",
+      "refreshState()"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5,
+    "question": "React is maintained by?",
+    "options": [
+      "Google",
+      "Facebook",
+      "Microsoft",
+      "Amazon"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 6,
+    "question": "React Question #6?",
+    "options": [
+      "Option A6",
+      "Option B6",
+      "Option C6",
+      "Option D6"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 7,
+    "question": "React Question #7?",
+    "options": [
+      "Option A7",
+      "Option B7",
+      "Option C7",
+      "Option D7"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "question": "React Question #8?",
+    "options": [
+      "Option A8",
+      "Option B8",
+      "Option C8",
+      "Option D8"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 9,
+    "question": "React Question #9?",
+    "options": [
+      "Option A9",
+      "Option B9",
+      "Option C9",
+      "Option D9"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 10,
+    "question": "React Question #10?",
+    "options": [
+      "Option A10",
+      "Option B10",
+      "Option C10",
+      "Option D10"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 11,
+    "question": "React Question #11?",
+    "options": [
+      "Option A11",
+      "Option B11",
+      "Option C11",
+      "Option D11"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 12,
+    "question": "React Question #12?",
+    "options": [
+      "Option A12",
+      "Option B12",
+      "Option C12",
+      "Option D12"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 13,
+    "question": "React Question #13?",
+    "options": [
+      "Option A13",
+      "Option B13",
+      "Option C13",
+      "Option D13"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 14,
+    "question": "React Question #14?",
+    "options": [
+      "Option A14",
+      "Option B14",
+      "Option C14",
+      "Option D14"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 15,
+    "question": "React Question #15?",
+    "options": [
+      "Option A15",
+      "Option B15",
+      "Option C15",
+      "Option D15"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 16,
+    "question": "React Question #16?",
+    "options": [
+      "Option A16",
+      "Option B16",
+      "Option C16",
+      "Option D16"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 17,
+    "question": "React Question #17?",
+    "options": [
+      "Option A17",
+      "Option B17",
+      "Option C17",
+      "Option D17"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 18,
+    "question": "React Question #18?",
+    "options": [
+      "Option A18",
+      "Option B18",
+      "Option C18",
+      "Option D18"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 19,
+    "question": "React Question #19?",
+    "options": [
+      "Option A19",
+      "Option B19",
+      "Option C19",
+      "Option D19"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 20,
+    "question": "React Question #20?",
+    "options": [
+      "Option A20",
+      "Option B20",
+      "Option C20",
+      "Option D20"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 21,
+    "question": "React Question #21?",
+    "options": [
+      "Option A21",
+      "Option B21",
+      "Option C21",
+      "Option D21"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 22,
+    "question": "React Question #22?",
+    "options": [
+      "Option A22",
+      "Option B22",
+      "Option C22",
+      "Option D22"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 23,
+    "question": "React Question #23?",
+    "options": [
+      "Option A23",
+      "Option B23",
+      "Option C23",
+      "Option D23"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 24,
+    "question": "React Question #24?",
+    "options": [
+      "Option A24",
+      "Option B24",
+      "Option C24",
+      "Option D24"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 25,
+    "question": "React Question #25?",
+    "options": [
+      "Option A25",
+      "Option B25",
+      "Option C25",
+      "Option D25"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 26,
+    "question": "React Question #26?",
+    "options": [
+      "Option A26",
+      "Option B26",
+      "Option C26",
+      "Option D26"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 27,
+    "question": "React Question #27?",
+    "options": [
+      "Option A27",
+      "Option B27",
+      "Option C27",
+      "Option D27"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 28,
+    "question": "React Question #28?",
+    "options": [
+      "Option A28",
+      "Option B28",
+      "Option C28",
+      "Option D28"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 29,
+    "question": "React Question #29?",
+    "options": [
+      "Option A29",
+      "Option B29",
+      "Option C29",
+      "Option D29"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 30,
+    "question": "React Question #30?",
+    "options": [
+      "Option A30",
+      "Option B30",
+      "Option C30",
+      "Option D30"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 31,
+    "question": "React Question #31?",
+    "options": [
+      "Option A31",
+      "Option B31",
+      "Option C31",
+      "Option D31"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 32,
+    "question": "React Question #32?",
+    "options": [
+      "Option A32",
+      "Option B32",
+      "Option C32",
+      "Option D32"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 33,
+    "question": "React Question #33?",
+    "options": [
+      "Option A33",
+      "Option B33",
+      "Option C33",
+      "Option D33"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 34,
+    "question": "React Question #34?",
+    "options": [
+      "Option A34",
+      "Option B34",
+      "Option C34",
+      "Option D34"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 35,
+    "question": "React Question #35?",
+    "options": [
+      "Option A35",
+      "Option B35",
+      "Option C35",
+      "Option D35"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "question": "React Question #36?",
+    "options": [
+      "Option A36",
+      "Option B36",
+      "Option C36",
+      "Option D36"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 37,
+    "question": "React Question #37?",
+    "options": [
+      "Option A37",
+      "Option B37",
+      "Option C37",
+      "Option D37"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 38,
+    "question": "React Question #38?",
+    "options": [
+      "Option A38",
+      "Option B38",
+      "Option C38",
+      "Option D38"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 39,
+    "question": "React Question #39?",
+    "options": [
+      "Option A39",
+      "Option B39",
+      "Option C39",
+      "Option D39"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 40,
+    "question": "React Question #40?",
+    "options": [
+      "Option A40",
+      "Option B40",
+      "Option C40",
+      "Option D40"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 41,
+    "question": "React Question #41?",
+    "options": [
+      "Option A41",
+      "Option B41",
+      "Option C41",
+      "Option D41"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 42,
+    "question": "React Question #42?",
+    "options": [
+      "Option A42",
+      "Option B42",
+      "Option C42",
+      "Option D42"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 43,
+    "question": "React Question #43?",
+    "options": [
+      "Option A43",
+      "Option B43",
+      "Option C43",
+      "Option D43"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 44,
+    "question": "React Question #44?",
+    "options": [
+      "Option A44",
+      "Option B44",
+      "Option C44",
+      "Option D44"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 45,
+    "question": "React Question #45?",
+    "options": [
+      "Option A45",
+      "Option B45",
+      "Option C45",
+      "Option D45"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 46,
+    "question": "React Question #46?",
+    "options": [
+      "Option A46",
+      "Option B46",
+      "Option C46",
+      "Option D46"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 47,
+    "question": "React Question #47?",
+    "options": [
+      "Option A47",
+      "Option B47",
+      "Option C47",
+      "Option D47"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 48,
+    "question": "React Question #48?",
+    "options": [
+      "Option A48",
+      "Option B48",
+      "Option C48",
+      "Option D48"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 49,
+    "question": "React Question #49?",
+    "options": [
+      "Option A49",
+      "Option B49",
+      "Option C49",
+      "Option D49"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 50,
+    "question": "React Question #50?",
+    "options": [
+      "Option A50",
+      "Option B50",
+      "Option C50",
+      "Option D50"
+    ],
+    "answer": 1
+  }
+]

@@ -1,11 +1,13 @@
-require('dotenv').config();
+require('dotenv').config(); 
 const express = require('express');
 const mongoose = require('./config/db');
+const cors = require('cors');                       // ⬅️ Added here
 const authRoutes = require('./routes/auth');
 const exam = require("./routes/exam");
 
 const app = express();
 app.use(express.json());
+app.use(cors());                                    // ⬅️ And here
 
 app.use('/api/auth', authRoutes);
 app.use("/api/exam", exam);

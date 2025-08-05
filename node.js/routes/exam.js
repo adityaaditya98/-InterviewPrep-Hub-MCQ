@@ -31,15 +31,21 @@ function dataModify(questionNumbers ,java){
     const questionBodyForJava= [];
     console.log(questionNumbers);
 for(let i=0;i<questionNumbers.length;i++){
+    if(java[questionNumbers[i]]!==undefined){
     const no = java[questionNumbers[i]].id;
     const ans= java[questionNumbers[i]].answer;
     const question= java[questionNumbers[i]].question;
     const option= java[questionNumbers[i]].options;
     questionBodyForJava.push(new QuestionBody(no,question,option,ans));
+    }else{
+        console.log(questionNumbers[i]);
+    }
 }
 return questionBodyForJava;
 }
-
+let javaQuestionList;
+let rectQuestionList;
+let nodeQuestionList;
 router.get("/exam",auth, async (req, res) => {
     console.log(java[0].question);
     console.log(react[0].question);
@@ -47,15 +53,17 @@ router.get("/exam",auth, async (req, res) => {
     const questionNumbers=countCal(20);
     const questionNumbersReact = countCal(20);
     const questionNumbersNodes = countCal(20);
-    const javaQuestionList = (dataModify(questionNumbers,java));
-    const rectQuestionList = (dataModify(questionNumbersReact,react));
-    const nodeQuestionList = (dataModify(questionNumbersNodes,node));
+    javaQuestionList = (dataModify(questionNumbers,java));
+    rectQuestionList = (dataModify(questionNumbersReact,react));
+    nodeQuestionList = (dataModify(questionNumbersNodes,node));
     console.log(javaQuestionList);
     console.log(rectQuestionList);
     console.log(nodeQuestionList);
 
     res.json({ java:javaQuestionList,react:rectQuestionList,node:nodeQuestionList  });  // ✅ sends response to client
 });
+
+
 
 
 

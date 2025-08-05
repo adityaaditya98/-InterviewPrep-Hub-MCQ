@@ -16,7 +16,7 @@ import {
 const QuizPage = () => {
   const [questions, setQuestions] = useState({ java: [], react: [], node: [] });
   const [selectedAnswers, setSelectedAnswers] = useState({});
-
+  const [selectedQuestionNo,setSelectedQuestionNo] = useState([]);
   const handleLogin = async () => {
     const res = await axios.post("http://localhost:5000/api/auth/login", {
       email: "aditya@gmail.com",
@@ -47,12 +47,19 @@ const QuizPage = () => {
     fetchData();
   }, []);
 
-  const handleAnswerChange = (topic, questionNo, value,idx) => {
-    setSelectedAnswers((prev) => ({
-      ...prev,
-      [`${topic}-${idx}`]: value,
-    }));
-  };
+  const handleAnswerChange = (topic, questionNo, value, index) => {
+  setSelectedAnswers((prev) => ({
+    ...prev,
+    [`${topic}-${questionNo}`]: value,
+  }));
+
+  setSelectedQuestionNo((prev) => {
+    if (!prev.includes(index+1)) {
+      return [...prev, `${index+1}-${topic}%${questionNo}`];
+    }
+    return prev;
+  });
+};
 
   const renderQuestion = (q, idx, topic) => (
     <Card key={`${topic}-${q.questionNo}`} sx={{ my: 2, boxShadow: 3 }}>
@@ -83,12 +90,15 @@ const QuizPage = () => {
 
   const handleSubmit = () => {
     console.log("Selected Answers:", selectedAnswers);
+    console.log("questionNo:-",selectedQuestionNo);
     for(let op in selectedAnswers){
         let temp = op.split('-');
         console.log(temp[1],selectedAnswers[op]);
-        console.log(questions.java);
         // console.log("object",selectedAnswers[op]);
     }
+    console.log(questions.java);
+    console.log(questions.node);
+    console.log(questions.react);
     alert("Answers submitted. Check console for output.");
   };
 
